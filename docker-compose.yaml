@@ -19,7 +19,7 @@ services:
     image: wordpress
     restart: always
     ports:
-      - 873:80
+      - 1239:80
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: exampleuser
