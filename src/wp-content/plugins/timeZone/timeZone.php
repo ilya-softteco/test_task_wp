@@ -8,7 +8,7 @@ if (!defined("ABSPATH")) {
 }
 
 global $time_zone_version;
-$time_zone_version = '13333.0';
+$time_zone_version = '1.0';
 
 
 function hello()
@@ -17,7 +17,6 @@ function hello()
 }
 
 //add_action("admin_init",'hello');
-register_activation_hook(__FILE__, 'jal_install');
 
 class TimeZone
 {
@@ -159,7 +158,7 @@ class TimeZone
             'time_zone_settings',
             [$this, 'time_zone_settings_page'],
             'dashicons-admin-multisite',
-            677
+            700
         );
     }
 
