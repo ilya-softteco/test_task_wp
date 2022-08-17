@@ -1,0 +1,222 @@
+2022-08-16T14:19:46+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:51
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 51
+
+2022-08-16T14:27:00+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:27:00+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:27:25+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:27:34+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:27:34+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:27:37+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:27:37+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:27:46+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:27:46+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:27:58+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:27:59+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:28:47+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:28:58+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:28:58+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:29:04+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:29:04+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:29:08+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:29:08+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:29:25+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:29:26+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:29:26+00:00 CRITICAL require(): Failed opening required '/var/www/html/wp-content/themes/myTheme/inc/template-tags.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/myTheme/functions.php on line 156
+
+2022-08-16T14:29:29+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:42
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 42
+
+2022-08-16T14:36:14+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:42
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 42
+
+2022-08-16T14:36:16+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:42
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 42
+
+2022-08-16T14:38:27+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:42
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 42
+
+2022-08-16T14:38:31+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:42
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 42
+
+2022-08-16T14:40:58+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:42
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 42
+
+2022-08-16T14:41:12+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:42
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 42
+
+2022-08-16T14:43:08+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:42
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 42
+
+2022-08-16T14:48:57+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:42
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 42
+
+2022-08-16T14:49:01+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:42
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 42
+
+2022-08-16T14:49:02+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:42
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 42
+
+2022-08-16T14:49:44+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:42
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 42
+
+2022-08-16T14:49:53+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:42
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 42
+
+2022-08-16T14:50:11+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /var/www/html/wp-content/themes/myTheme/header.php:53
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(770): require_once()
+#1 /var/www/html/wp-includes/template.php(716): load_template('/var/www/html/w...', true, Array)
+#2 /var/www/html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /var/www/html/wp-content/themes/myTheme/index.php(17): get_header()
+#4 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#5 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#6 /var/www/html/index.php(17): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/themes/myTheme/header.php on line 53
+

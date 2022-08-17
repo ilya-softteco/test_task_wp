@@ -1440,7 +1440,7 @@ function get_status_header_desc( $code ) {
  * @param string $description Optional. A custom description for the HTTP status.
  */
 function status_header( $code, $description = '' ) {
-	if ( ! $description ) {
+    if ( ! $description ) {
 		$description = get_status_header_desc( $code );
 	}
 
@@ -8458,3 +8458,5 @@ function wp_recursive_ksort( &$array ) {
 	}
 	ksort( $array );
 }
+
+

@@ -19,11 +19,21 @@ services:
     image: wordpress
     restart: always
     ports:
-      - 1239:80
+      - 873:80
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: exampleuser
       WORDPRESS_DB_PASSWORD: examplepass
       WORDPRESS_DB_NAME: exampledb
+      WORDPRESS_DEBUG: 1
     volumes:
       - ./src:/var/www/html
+  adminer:
+    depends_on:
+      - db
+    image: adminer
+    restart: always
+    links:
+      - db
+    ports:
+      - 3466:8080

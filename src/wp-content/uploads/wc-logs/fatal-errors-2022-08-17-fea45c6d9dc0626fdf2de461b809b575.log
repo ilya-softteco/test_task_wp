@@ -1,0 +1,26 @@
+2022-08-17T09:06:00+00:00 CRITICAL Uncaught Error: Class 'JoinChatWooAdmin' not found in /var/www/html/wp-content/plugins/creame-whatsapp-me/includes/class-joinchat-integrations.php:30
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(307): JoinChatIntegrations->load_integrations('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(461): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/creame-whatsapp-me/includes/class-joinchat-integrations.php on line 30
+
+2022-08-17T09:06:08+00:00 CRITICAL Uncaught Error: Class 'JoinChatWooAdmin' not found in /var/www/html/wp-content/plugins/creame-whatsapp-me/includes/class-joinchat-integrations.php:30
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(307): JoinChatIntegrations->load_integrations('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(461): do_action('plugins_loaded')
+#4 /var/www/html/wp-config.php(133): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-content/plugins/creame-whatsapp-me/includes/class-joinchat-integrations.php on line 30
+

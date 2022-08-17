@@ -13,8 +13,12 @@ class SelectTimeZone
 {
     public function __construct()
     {
-        add_action('init', array($this, 'custom_post_type'));
+        //add_action('init', array($this, 'custom_post_type'));
 
+    }
+
+    public  function register(){
+        add_action('admin_enqueue_scripts',array($this,'enqueue'));
     }
 
     function activate()
@@ -42,6 +46,11 @@ class SelectTimeZone
     {
         register_post_type('TimeZone', ['public' => true, 'label' => 'TimeZone']);
     }
+
+    function enqueue(){
+        wp_enqueue_script('main', plugins_url('/js/main.js',__FILE__));
+    }
+
 }
 
 if (class_exists('SelectTimeZone')) {
