@@ -41,18 +41,7 @@ class TimeZone
         timezone varchar(200) NOT NULL
    )"));
 
-
         add_option('time_zone_version', $time_zone_version);
-
-
-        /*     $wpdb->insert(
-                $table_name,
-                array(
-                    'id_user' => 22,
-                    'timezone' => '$welcome_name',
-                )
-            );*/
-
     }
 
 
@@ -103,11 +92,11 @@ class TimeZone
     public function settings_init()
     {
 
-        register_setting('booking_settings', 'booking_settings_options');
+        register_setting('time_zone_settings', 'time_zone_settings_options');
 
-        add_settings_section('booking_settings_section', esc_html__('Settings', 'time_zone'), [$this, 'settings_section_html'], 'time_zone_settings');
+        add_settings_section('time_zone_settings_section', esc_html__('Settings', 'time_zone'), [$this, 'settings_section_html'], 'time_zone_settings');
 
-        // add_settings_field('timeZoneSelect', esc_html__('Posts per page', 'time_zone'), [$this, 'posts_per_page_html'], 'time_zone_settings', 'booking_settings_section');
+        // add_settings_field('timeZoneSelect', esc_html__('Posts per page', 'time_zone'), [$this, 'posts_per_page_html'], 'time_zone_settings', 'time_zone_settings_section');
 
     }
 
@@ -138,7 +127,7 @@ class TimeZone
 
             echo '<h1> Time Zone User: <h1 id="TZ"> ' . $res->timezone . '</h1></h1><br>';
 
-            echo '<h1> Time Now : <h1 id="time">  ' . $date->format('m/d/Y, h:i:s A') . '</h1> </h1><br>';
+            echo '<h1> Time Now : <h1 id="time">  ' . $date->format('n/d/Y, g:i:s A') . '</h1> </h1><br>';
 
 
             $timezone_identifiers = DateTimeZone::listIdentifiers();

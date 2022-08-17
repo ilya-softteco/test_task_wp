@@ -7,15 +7,12 @@ $timeZoneSelect = $_POST['timeZoneSelect'];
 if (!empty($timeZoneSelect) && !empty($idUSer)) {
 
     global $wpdb;
-
     $table_name = $wpdb->prefix . "time_zone";
-
 
     $wpdb->query($wpdb->prepare(
         "UPDATE $table_name
 SET timezone = '" . $timeZoneSelect . "'
 WHERE id_user =  $idUSer;"));
-
 
     return 'OK';
 }

@@ -1,12 +1,21 @@
 jQuery( document ).ready(function() {
+
+    function getSelectedElement(){
+        return jQuery('#zone').find(":selected").text()
+    }
+        setInterval(function () {
+            let timeZoneSelected = getSelectedElement()
+            let chicago_datetime_str = new Date().toLocaleString("en-US", { timeZone: timeZoneSelected })
+           jQuery("#time").text(chicago_datetime_str)
+       }, 1000)
+
     jQuery('#submit').on('click', function(event) {
-        event.preventDefault();
+        event.preventDefault()
 
+        let form = jQuery("#form_time_zone")
+        let actionUrl = form.attr('action')
 
-        var form = jQuery("#form_time_zone");
-        var actionUrl = form.attr('action');
-
-        var timeZoneSelected = jQuery('#zone').find(":selected").text();
+        let timeZoneSelected = getSelectedElement()
 
         jQuery.ajax({
             type: "POST",
@@ -14,13 +23,13 @@ jQuery( document ).ready(function() {
             data: form.serialize(),
             success: function(data)
             {
-                let chicago_datetime_str = new Date().toLocaleString("en-US", { timeZone: timeZoneSelected });
-                console.log(chicago_datetime_str);
                 jQuery("#TZ").text(timeZoneSelected)
-                jQuery("#time").text(chicago_datetime_str)
             }
-        });
+        })
+    })
 
+    jQuery('#zone').on('change', function() {
+        jQuery("#TZ").text(this.value)
+    })
 
-    });
-});
+})
